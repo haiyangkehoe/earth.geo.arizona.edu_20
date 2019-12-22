@@ -1,0 +1,61 @@
+:root {
+  --myblue: #0C234B;
+  --myred: #AB0520;
+  --mygray: #F1F1F1;
+}
+
+* {
+  font-family: helvetica;
+}
+
+html {
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: var(--myred);
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--myred);
+  width: 100%;
+}
+
+#wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
